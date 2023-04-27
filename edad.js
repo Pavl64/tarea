@@ -6,7 +6,7 @@ if(!isNaN(anioNacimiento)){
         let edad =anioActual - anioNacimiento;
         console.log("Tu edad actual es: " + edad + " años.");
     }else{
-        console.log("aun no naces")
+        console.log("debes colocar un año no mayor del actual")
     }
 }else{
     console.log("debes colocar un numero")
